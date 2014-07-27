@@ -19,7 +19,7 @@ A tornado-powered python library that provides asynchronous access to elasticsea
       include_package_data=True,
       zip_safe=True,
       install_requires=[
-          'tornado==2.4',
+          'tornado>=2.4',
           'six==1.7.3',
       ],
       tests_require=[
